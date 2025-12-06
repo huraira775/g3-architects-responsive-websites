@@ -241,8 +241,13 @@ main>section{
     grid-template-columns: repeat(2, 1fr);
 
     gap: 40px;
+    /* padding: 20px; */
     /* justify-items: center; */
 
+  }
+  .sponsor-images>img{
+    max-width: 120px;
+    width: 100%;
   }
   
  
