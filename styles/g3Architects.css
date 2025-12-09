@@ -10,8 +10,25 @@
 
 body{
     font-family: "Work Sans", sans-serif;
+    margin: 0;
+    /* padding: 0 20px; */
+    
+    box-sizing: border-box;
+    
 }
 
+.container{
+  /* max-width: 1440px;
+  width: 100%; */
+  margin: 0 auto;
+  /* padding: 0 20px; */
+}
+.header{
+ 
+  width: 100%;
+  padding: 0 50px;
+ 
+}
 /* shared styles */
 .display-flex {
   display: flex;
@@ -54,6 +71,7 @@ body{
   max-width: 1440px;
   width: 100%;
   margin: 0 auto;
+
 }
 main>section{
   margin-top: 120px;
@@ -110,6 +128,7 @@ main>section{
   /* border-radius: 8px; */
   /* max-width: 1440px; */
   width: 100%;
+  margin-bottom: 50px;
 }
 
 /* teams styles */
@@ -207,6 +226,66 @@ main>section{
 .sponsor-images>img{
   filter: grayscale(100);
 }
+
+/* feature section related styles */
+.feature-container{
+  justify-content: space-between;
+  /* align-items: center; */
+  gap: 140px;
+  /* margin-top: 120px; */
+     align-items: center;
+}
+#feature-section-border{
+  border-left: 5px solid #FF900E;
+  padding-left: 20px;
+  margin: 0;
+  
+}
+.feature-intro{
+  flex-direction: column;
+  gap: 0;
+}
+
+.feature-cards-container{
+  flex-direction: column;
+    gap: 20px;
+ 
+
+}
+
+.feature-card{
+  display: flex;
+  flex-direction: column;
+  max-width: 520px;
+  width: 100%;
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  padding: 30px;
+}
+
+.feature-card-title{
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0 0 10px 0;
+}
+.feature-card-description{
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 0;
+}
+.feature-image-container{
+  /* max-width: 500px;
+  width: 100%; */
+  
+}
+.feature-image-container>img{
+  /* width: 100%;
+  height: 850px;
+  border-radius: 8px; */
+}
+
+
+
 
 /* responsive media queries  */
 /* for smaller devices */
