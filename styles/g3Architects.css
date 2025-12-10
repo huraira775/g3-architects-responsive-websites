@@ -338,6 +338,13 @@ main>section {
   font-weight: 700;
 }
 
+.footer {
+  background-color: #fff4e6;
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+  margin-top: 120px;
+}
 
 /* responsive media queries  */
 /* for smaller devices */
